@@ -12,3 +12,10 @@ publish:
 
 package-install:
 	python3 -m pip install --user dist/*.whl
+
+lint:
+	poetry run flake8 brain_games
+
+#Переустановка пакета локально из системы
+reinstall:
+	python3 -m pip install --user --force-reinstall dist/*.whl

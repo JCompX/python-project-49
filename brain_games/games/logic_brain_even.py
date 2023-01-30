@@ -1,22 +1,27 @@
-import brain_games.game_engine
 import random
 import prompt
 
 
-def game_even():
-    user_name = brain_games.game_engine.welcome_user()
-    i = 0
-    print('Answer "yes" if the number is even, otherwise answer "no"')
-    while i < 3:
-        num = random.randint(1, 100)
-        print(f'Question: {num}')
-        user_answer = prompt.string(prompt='Your answer: ', empty=False)
-        true_answer = num % 2 == 0 and 'yes' or 'no'
-        if user_answer != true_answer:
-            print(f"'{user_answer}' is wrong answer ;(."
-                  f"Correct answer was '{true_answer}'.")
-            return print(f"Let's try again, {user_name}!")
-        elif user_answer == true_answer:
-            print('Correct!')
-            i += 1
-    return print(f"Congratulations, {user_name}!")
+def game_question():
+    return 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
+def answer():
+    return prompt.string(prompt='Your answer: ', empty=False)
+
+
+def true_answer(data_question):
+    return 'yes' if data_question % 2 == 0 else 'no'
+
+
+def data_question():
+    return random.randint(1, 100)
+
+
+def check_user_answer(data_question, user_answer):
+    if data_question % 2 == 0 and user_answer == 'yes':
+        return True
+    elif data_question % 2 != 0 and user_answer == 'no':
+        return True
+    else:
+        return False

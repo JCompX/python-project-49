@@ -17,5 +17,4 @@ def true_answer(data_question):
 
 
 def check_user_answer(data_question, user_answer):
-    true_answer = eval(data_question)
-    return True if int(user_answer) == true_answer else False
+    return True if int(user_answer) == true_answer(data_question) else False
