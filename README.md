@@ -20,3 +20,6 @@ You need to write step-by-step the following commands in your terminal:
 
 
 [![asciicast](https://asciinema.org/a/4pbVMx9lYubveS96kpzOenLCm.svg)](https://asciinema.org/a/4pbVMx9lYubveS96kpzOenLCm)
+
+
+[![asciicast](https://asciinema.org/a/Iw4VPqgZidHctPxaFNNAmKeha.svg)](https://asciinema.org/a/Iw4VPqgZidHctPxaFNNAmKeha)
