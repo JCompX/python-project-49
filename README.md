@@ -23,3 +23,6 @@ You need to write step-by-step the following commands in your terminal:
 
 
 [![asciicast](https://asciinema.org/a/Iw4VPqgZidHctPxaFNNAmKeha.svg)](https://asciinema.org/a/Iw4VPqgZidHctPxaFNNAmKeha)
+
+
+[![asciicast](https://asciinema.org/a/rkX9vLITJRbLuDCITRgrAzr3L.svg)](https://asciinema.org/a/rkX9vLITJRbLuDCITRgrAzr3L)
