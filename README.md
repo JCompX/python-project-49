@@ -26,3 +26,6 @@ You need to write step-by-step the following commands in your terminal:
 
 
 [![asciicast](https://asciinema.org/a/EjmcMxuuYWiw7ElLyprY0omFr.svg)](https://asciinema.org/a/EjmcMxuuYWiw7ElLyprY0omFr)
+
+
+[![asciicast](https://asciinema.org/a/ZSjrmd3uth1Ceti7jUWtCdnZR.svg)](https://asciinema.org/a/ZSjrmd3uth1Ceti7jUWtCdnZR)
