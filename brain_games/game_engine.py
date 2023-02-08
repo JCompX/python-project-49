@@ -19,6 +19,6 @@ def game_process(input_data):
         else:
             return print(f"{user_answer} is wrong answer ;(. "
                          f"Correct answer was {true_answer}.\n"
-                         f"Let's try again, {user_name}")
+                         f"Let's try again, {user_name}!")
         i += 1
     return print(f"Congratulations, {user_name}!")
